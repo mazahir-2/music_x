@@ -9,6 +9,9 @@
 .history
 .svn/
 migrate_working_dir/
+secrets.*
+lib/secrets.dart
+
 
 # IntelliJ related
 *.iml
@@ -16,7 +19,7 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
+# The .vscode folder contains launch cgit reset name_of_fileonfiguration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
 #.vscode/
@@ -45,5 +48,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-lib/secrets.dart
